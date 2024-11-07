@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Secte - Accueil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content">
+        	<div class="header-image">
+         	   <img src="https://media.discordapp.net/attachments/1304075140124114994/1304117479471316994/dhs0tlz-665e7445-08a2-481a-9657-e07cc4706723.png?ex=672e398c&is=672ce80c&hm=896793ac56587d7e80b21e85976dac6c835e833ea7bc1767b150b1d5403c6b64&" alt="La Secte Logo">
+       	 </div> 
+            <h1>Bienvenue sur La Secte</h1>
+            <p>Explorez des articles passionnants sur des sujets allant de la technologie à la musique et plus encore.</p>
+            <p><a href="https://discord.gg/apUfUdetGw" target="_blank" class="join-button">Rejoignez notre serveur Discord</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 La Secte. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

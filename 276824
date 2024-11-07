@@ -1,0 +1,108 @@
+/* Style général */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2f3136;  /* Discord background color */
+    color: white;
+}
+
+header {
+    background-color: #36393f; /* Discord header color */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-image img {
+    width: 120px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    color: #7289da; /* Discord blue */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    background-color: #2f3136; /* Discord background color */
+}
+
+.content {
+    margin-bottom: 40px;
+    background-color: #40444b; /* Section background */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Slight shadow for a 3D effect */
+}
+
+h1 {
+    color: #7289da; /* Discord blue */
+}
+
+p {
+    font-size: 16px;
+}
+
+p a {
+    color: #7289da; /* Discord blue */
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+.join-button {
+    display: inline-block;
+    background-color: #7289da; /* Discord blue */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.join-button:hover {
+    background-color: #5c6db0; /* Darker blue for hover */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Adding shadow for hover effect */
+}
+
+footer {
+    background-color: #36393f; /* Discord footer color */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .header-image img {
+        width: 80px; /* Make image smaller on mobile */
+    }
+}
